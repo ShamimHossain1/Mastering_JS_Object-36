@@ -14,7 +14,6 @@ const student = {
     job: 'khai andey',
     bal: function () {
         // console.log('throw ball');
-
     },
     salary: '10k'
 }
@@ -48,5 +47,5 @@ function Car(model, price){
     this.price = price;
 }
 
-const tesla = new Car('elon', 50000);
+const tesla =new Car('elon', 50000);
 console.log(tesla);
