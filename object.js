@@ -42,10 +42,10 @@ const person1 = new Person(34);
 
 // 5. Function
 
-function Car(model, price){
+function Car(model, price) {
     this.model = model;
     this.price = price;
 }
 
-const tesla =new Car('elon', 50000);
+const tesla = new Car('elon', 50000);
 console.log(tesla);

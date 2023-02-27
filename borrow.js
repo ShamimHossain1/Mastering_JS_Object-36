@@ -5,7 +5,7 @@ const student = {
 
         this.salary = this.salary - treat - tip;
         return this.salary;
-  
+
     },
     salary: 20000
 }
@@ -14,14 +14,14 @@ const tip = 50;
 student.treat(treat, tip);
 // console.log(student.salary);
 
-const person ={
+const person = {
     name: 'shamim',
     salary: 5000
 }
 
 // call method
 
-const person1 = student.treat.call(person ,1000 ,500 );
+const person1 = student.treat.call(person, 1000, 500);
 console.log(person1);
 
 // apply method

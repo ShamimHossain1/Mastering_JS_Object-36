@@ -17,9 +17,9 @@ function compareObject(number1, number2) {
     const number1Keys = Object.keys(number1);
     const number2Keys = Object.keys(number2);
     if (number1Keys.length === number2Keys.length) {
-        for(const key of number1Keys){
+        for (const key of number1Keys) {
             // console.log(key);
-            if(number1[key]!==number2[key]){
+            if (number1[key] !== number2[key]) {
                 return false;
             }
         }
@@ -29,6 +29,6 @@ function compareObject(number1, number2) {
         return false;
     }
 }
- 
-const compare =compareObject(number1, number2);
+
+const compare = compareObject(number1, number2);
 console.log(compare);
